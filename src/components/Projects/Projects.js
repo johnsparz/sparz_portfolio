@@ -6,6 +6,8 @@ import firstui from '../../Assets/Projects/firstui.png';
 import ag from '../../Assets/Projects/ag.png';
 import goodshop from '../../Assets/Projects/goodshop.png';
 import freshdesign from '../../Assets/Projects/freshdesign.png';
+import gd1 from '../../Assets/Projects/gd1.png';
+import gd2 from '../../Assets/Projects/gd2.jpg';
 
 function Projects() {
   return (
@@ -16,15 +18,15 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: 'white' }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently (Web & Graphic Design).
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ag}
               isBlog={false}
-              title="modern ui"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="modern ui (Web)"
+              description="An agency website which made use of the most recent technology such as react, css, and many more."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://agency-x.vercel.app/"
             />
@@ -34,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={goodshop}
               isBlog={false}
-              title="ecommerce shop"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="ecommerce shop (Web)"
+              description="An ecommerce website which made use of the most recent technology such as react, css, and many more."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://goodshop-hbf4gmt57-johnspinic-gmailcom.vercel.app"
             />
@@ -45,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={firstui}
               isBlog={false}
-              title="modern ui design"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="modern ui design (Web)"
+              description="A modern design which makes use of the most recent technology such as react, css, and many more."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://firstui.vercel.app/"
             />
@@ -56,12 +58,33 @@ function Projects() {
             <ProjectCard
               imgPath={freshdesign}
               isBlog={false}
-              title="fresh design"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="fresh design (Web)"
+              description="An ecommerce modern design which makes use of the most recent technology such as nextjs, tailwind, mongodb and many more."
+              //ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://shopy-phi.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gd1}
+              isBlog={false}
+              title="potrait banner (Graphic)"
+              description="This is a modern graphic design to advertise goods and services on social media. Please, click on the 'link' below to see more Graphic Designs"         
+              demoLink="https://www.linkedin.com/in/johnarije/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gd2}
+              isBlog={false}
+              title="socialmedia banner (Graphic)"
+              description="This is a modern graphic design to advertise goods and services on social media. Please, click on the 'link' below to see more Graphic Designs"         
+              demoLink="https://www.linkedin.com/in/johnarije/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

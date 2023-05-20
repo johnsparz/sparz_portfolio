@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">John Arije </span> AKA{' '}
             <span className="purple">Johnsparz </span>
             from <span className="purple"> Nigeria.</span>
-            <br />I am a Cybersecurity graduate from the university of FUTA,
+            <br />I am a Cybersecurity graduate from FUTA,
             Nigeria.
             <br />
             <br />
